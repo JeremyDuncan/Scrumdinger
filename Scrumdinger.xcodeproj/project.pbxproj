@@ -15,6 +15,7 @@
 		9429D73528171B9200BFEC17 /* ScrumdingerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9429D73428171B9200BFEC17 /* ScrumdingerUITests.swift */; };
 		9429D73728171B9200BFEC17 /* ScrumdingerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9429D73628171B9200BFEC17 /* ScrumdingerUITestsLaunchTests.swift */; };
 		94BD1A962817459400AA2160 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BD1A952817459400AA2160 /* Theme.swift */; };
+		94BD1A982817476300AA2160 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BD1A972817476300AA2160 /* DailyScrum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		9429D73428171B9200BFEC17 /* ScrumdingerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITests.swift; sourceTree = "<group>"; };
 		9429D73628171B9200BFEC17 /* ScrumdingerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		94BD1A952817459400AA2160 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		94BD1A972817476300AA2160 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				94BD1A952817459400AA2160 /* Theme.swift */,
+				94BD1A972817476300AA2160 /* DailyScrum.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94BD1A982817476300AA2160 /* DailyScrum.swift in Sources */,
 				94BD1A962817459400AA2160 /* Theme.swift in Sources */,
 				9429D71C28171B9100BFEC17 /* MeetingView.swift in Sources */,
 				9429D71A28171B9100BFEC17 /* ScrumdingerApp.swift in Sources */,
